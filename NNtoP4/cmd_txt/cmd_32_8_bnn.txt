@@ -1,0 +1,2 @@
+table_set_default l1_xor_table xor_32_8
+table_add l1_xor_table xor_32_8 => 0x2b1939f6 0xdb2501f6 0xaa3a895f 0x1ca0e969 0x99a43cde 0xd0cad442 0xeacdfd01 0x35a170fa
