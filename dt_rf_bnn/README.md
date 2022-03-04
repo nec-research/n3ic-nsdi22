@@ -33,7 +33,7 @@ for f in *.argus; do ra -r $f -u -n -c , -s +dur +sbytes +dbytes +sttl +dttl +sl
 ls *csv | head -n 1 | xargs -n 1 head -n 1 > dataset_hdr.csv
 # Concatenate all the CSV files
 awk FNR!=1 *.csv > dataset_data.csv
-# Crate a single dataset.csv file
+# Create a single dataset.csv file
 cat dataset_hdr.csv dataset_data.csv > dataset.csv
 rm *.argus* dataset_hdr.csv dataset_data.csv
 ```
@@ -41,3 +41,4 @@ Finally, download `List_Of_Devices.txt` into the same `datasets/UNSW_IOT` folder
 ```
 wget https://iotanalytics.unsw.edu.au/resources/List_Of_Devices.txt
 ```
+You are now ready to run the two Jupyter notebooks `sec_dataset.ipynb` and `iot_dataset.ipynb`.
