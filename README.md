@@ -2,7 +2,7 @@
 
 This repository contains the code for the paper
 
-***"Re-architecting Traffic Analysis with Neural Network Interface Cards" (G. Siracusano et al., USENIX NSDI 2022)***
+[***"Re-architecting Traffic Analysis with Neural Network Interface Cards" (G. Siracusano et al., USENIX NSDI 2022)***](https://www.usenix.org/conference/nsdi22/presentation/siracusano)
 
 The structure of the directories is the following:
 - `dt_rf_bnn`: Jupyter notebooks comparing Decision Tree (DT), Random Forest (RF) and Binary Neural Network (BNN) models on Security and IoT datasets
@@ -19,6 +19,10 @@ If you use N3IC for your research, please cite the following paper:
   title={Re-architecting Traffic Analysis with Neural Network Interface Cards},
   author={Siracusano, Giuseppe and Galea, Salvator and Sanvito, Davide and Malekzadeh, Mohammad and Antichi, Gianni and Costa, Paolo and Haddadi, Hamed and Bifulco, Roberto},
   booktitle={19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
-  year={2022}
+  year={2022},
+  address = {Renton, WA},
+  url = {https://www.usenix.org/conference/nsdi22/presentation/siracusano},
+  publisher = {USENIX Association},
+  month = apr,
 }
 ```
