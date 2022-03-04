@@ -1,12 +1,15 @@
 # N3IC
 
-This repository contains the code for the paper ***"Re-architecting Traffic Analysis with Neural Network Interface Cards" (G. Siracusano et al., USENIX NSDI 2022)***.
+This repository contains the code for the paper
+
+***"Re-architecting Traffic Analysis with Neural Network Interface Cards" (G. Siracusano et al., USENIX NSDI 2022)***
 
 The structure of the directories is the following:
 - `dt_rf_bnn`: Jupyter notebooks comparing Decision Tree (DT), Random Forest (RF) and Binary Neural Network (BNN) models on Security and IoT datasets
 - `NNtoP4`: BNN to P4 compiler
 - `bnn-exec`: CPU BNN executor baseline
 - `n3ic-nfp`: NFP BNN executor
+
 Additional `README.md` files are provided in the sub-directories above.
 
 ## Reference
